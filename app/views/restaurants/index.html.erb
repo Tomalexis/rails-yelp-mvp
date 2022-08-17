@@ -1,0 +1,5 @@
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li class="list-index"><%= link_to restaurant.name, restaurant_path(restaurant), class:"btn btn-info" %></li>
+  <% end %>
+</ul>

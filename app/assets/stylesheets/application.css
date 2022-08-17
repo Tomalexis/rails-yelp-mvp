@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.form-inline {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.list-index {
+  padding-bottom: 7px;
+  list-style: none;
+}
